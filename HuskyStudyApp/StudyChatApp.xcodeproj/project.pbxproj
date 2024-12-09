@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3ECE68C82D038D3700F96D0A /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 3ECE68C72D038D3700F96D0A /* FirebaseAuth */; };
+		3ECE68CA2D038D3700F96D0A /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 3ECE68C92D038D3700F96D0A /* FirebaseFirestore */; };
+		3ECE68CC2D038D3700F96D0A /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 3ECE68CB2D038D3700F96D0A /* FirebaseStorage */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3ECE68A82D038B3B00F96D0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3ECE688F2D038B3900F96D0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3ECE68962D038B3900F96D0A;
+			remoteInfo = StudyChatApp;
+		};
+		3ECE68B22D038B3B00F96D0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3ECE688F2D038B3900F96D0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3ECE68962D038B3900F96D0A;
+			remoteInfo = StudyChatApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3ECE68972D038B3900F96D0A /* StudyChatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudyChatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ECE68A72D038B3B00F96D0A /* StudyChatAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudyChatAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ECE68B12D038B3B00F96D0A /* StudyChatAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudyChatAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		3ECE69012D040AB700F96D0A /* Exceptions for "StudyChatApp" folder in "StudyChatApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 3ECE68962D038B3900F96D0A /* StudyChatApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		3ECE68AA2D038B3B00F96D0A /* StudyChatAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = StudyChatAppTests;
+			sourceTree = "<group>";
+		};
+		3ECE68B42D038B3B00F96D0A /* StudyChatAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = StudyChatAppUITests;
+			sourceTree = "<group>";
+		};
+		3ECE68E12D03913B00F96D0A /* StudyChatApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3ECE69012D040AB700F96D0A /* Exceptions for "StudyChatApp" folder in "StudyChatApp" target */,
+			);
+			path = StudyChatApp;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3ECE68942D038B3900F96D0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ECE68C82D038D3700F96D0A /* FirebaseAuth in Frameworks */,
+				3ECE68CA2D038D3700F96D0A /* FirebaseFirestore in Frameworks */,
+				3ECE68CC2D038D3700F96D0A /* FirebaseStorage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ECE68A42D038B3B00F96D0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ECE68AE2D038B3B00F96D0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3ECE688E2D038B3900F96D0A = {
+			isa = PBXGroup;
+			children = (
+				3ECE68AA2D038B3B00F96D0A /* StudyChatAppTests */,
+				3ECE68B42D038B3B00F96D0A /* StudyChatAppUITests */,
+				3ECE68982D038B3900F96D0A /* Products */,
+				3ECE68E12D03913B00F96D0A /* StudyChatApp */,
+			);
+			sourceTree = "<group>";
+		};
+		3ECE68982D038B3900F96D0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3ECE68972D038B3900F96D0A /* StudyChatApp.app */,
+				3ECE68A72D038B3B00F96D0A /* StudyChatAppTests.xctest */,
+				3ECE68B12D038B3B00F96D0A /* StudyChatAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3ECE68962D038B3900F96D0A /* StudyChatApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ECE68BB2D038B3B00F96D0A /* Build configuration list for PBXNativeTarget "StudyChatApp" */;
+			buildPhases = (
+				3ECE68932D038B3900F96D0A /* Sources */,
+				3ECE68942D038B3900F96D0A /* Frameworks */,
+				3ECE68952D038B3900F96D0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				3ECE68E12D03913B00F96D0A /* StudyChatApp */,
+			);
+			name = StudyChatApp;
+			packageProductDependencies = (
+				3ECE68C72D038D3700F96D0A /* FirebaseAuth */,
+				3ECE68C92D038D3700F96D0A /* FirebaseFirestore */,
+				3ECE68CB2D038D3700F96D0A /* FirebaseStorage */,
+			);
+			productName = StudyChatApp;
+			productReference = 3ECE68972D038B3900F96D0A /* StudyChatApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3ECE68A62D038B3B00F96D0A /* StudyChatAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ECE68BE2D038B3B00F96D0A /* Build configuration list for PBXNativeTarget "StudyChatAppTests" */;
+			buildPhases = (
+				3ECE68A32D038B3B00F96D0A /* Sources */,
+				3ECE68A42D038B3B00F96D0A /* Frameworks */,
+				3ECE68A52D038B3B00F96D0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3ECE68A92D038B3B00F96D0A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3ECE68AA2D038B3B00F96D0A /* StudyChatAppTests */,
+			);
+			name = StudyChatAppTests;
+			packageProductDependencies = (
+			);
+			productName = StudyChatAppTests;
+			productReference = 3ECE68A72D038B3B00F96D0A /* StudyChatAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3ECE68B02D038B3B00F96D0A /* StudyChatAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ECE68C12D038B3B00F96D0A /* Build configuration list for PBXNativeTarget "StudyChatAppUITests" */;
+			buildPhases = (
+				3ECE68AD2D038B3B00F96D0A /* Sources */,
+				3ECE68AE2D038B3B00F96D0A /* Frameworks */,
+				3ECE68AF2D038B3B00F96D0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3ECE68B32D038B3B00F96D0A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3ECE68B42D038B3B00F96D0A /* StudyChatAppUITests */,
+			);
+			name = StudyChatAppUITests;
+			packageProductDependencies = (
+			);
+			productName = StudyChatAppUITests;
+			productReference = 3ECE68B12D038B3B00F96D0A /* StudyChatAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3ECE688F2D038B3900F96D0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					3ECE68962D038B3900F96D0A = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					3ECE68A62D038B3B00F96D0A = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 3ECE68962D038B3900F96D0A;
+					};
+					3ECE68B02D038B3B00F96D0A = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 3ECE68962D038B3900F96D0A;
+					};
+				};
+			};
+			buildConfigurationList = 3ECE68922D038B3900F96D0A /* Build configuration list for PBXProject "StudyChatApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3ECE688E2D038B3900F96D0A;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				3ECE68C62D038D3700F96D0A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3ECE68982D038B3900F96D0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3ECE68962D038B3900F96D0A /* StudyChatApp */,
+				3ECE68A62D038B3B00F96D0A /* StudyChatAppTests */,
+				3ECE68B02D038B3B00F96D0A /* StudyChatAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3ECE68952D038B3900F96D0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ECE68A52D038B3B00F96D0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ECE68AF2D038B3B00F96D0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3ECE68932D038B3900F96D0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ECE68A32D038B3B00F96D0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ECE68AD2D038B3B00F96D0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3ECE68A92D038B3B00F96D0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3ECE68962D038B3900F96D0A /* StudyChatApp */;
+			targetProxy = 3ECE68A82D038B3B00F96D0A /* PBXContainerItemProxy */;
+		};
+		3ECE68B32D038B3B00F96D0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3ECE68962D038B3900F96D0A /* StudyChatApp */;
+			targetProxy = 3ECE68B22D038B3B00F96D0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3ECE68B92D038B3B00F96D0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3ECE68BA2D038B3B00F96D0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3ECE68BC2D038B3B00F96D0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = StudyChatApp/StudyChatApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StudyChatApp/Preview Content\"";
+				DEVELOPMENT_TEAM = VKZ7KUJPQS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StudyChatApp/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "StudyChatApp requires access to your camera";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nuios.StudyChatApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3ECE68BD2D038B3B00F96D0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = StudyChatApp/StudyChatApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StudyChatApp/Preview Content\"";
+				DEVELOPMENT_TEAM = VKZ7KUJPQS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StudyChatApp/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "StudyChatApp requires access to your camera";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nuios.StudyChatApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3ECE68BF2D038B3B00F96D0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P2QY3HBBHJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nuios.StudyChatAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StudyChatApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StudyChatApp";
+			};
+			name = Debug;
+		};
+		3ECE68C02D038B3B00F96D0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P2QY3HBBHJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nuios.StudyChatAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StudyChatApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StudyChatApp";
+			};
+			name = Release;
+		};
+		3ECE68C22D038B3B00F96D0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P2QY3HBBHJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nuios.StudyChatAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StudyChatApp;
+			};
+			name = Debug;
+		};
+		3ECE68C32D038B3B00F96D0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P2QY3HBBHJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nuios.StudyChatAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StudyChatApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3ECE68922D038B3900F96D0A /* Build configuration list for PBXProject "StudyChatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ECE68B92D038B3B00F96D0A /* Debug */,
+				3ECE68BA2D038B3B00F96D0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3ECE68BB2D038B3B00F96D0A /* Build configuration list for PBXNativeTarget "StudyChatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ECE68BC2D038B3B00F96D0A /* Debug */,
+				3ECE68BD2D038B3B00F96D0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3ECE68BE2D038B3B00F96D0A /* Build configuration list for PBXNativeTarget "StudyChatAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ECE68BF2D038B3B00F96D0A /* Debug */,
+				3ECE68C02D038B3B00F96D0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3ECE68C12D038B3B00F96D0A /* Build configuration list for PBXNativeTarget "StudyChatAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ECE68C22D038B3B00F96D0A /* Debug */,
+				3ECE68C32D038B3B00F96D0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3ECE68C62D038D3700F96D0A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3ECE68C72D038D3700F96D0A /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3ECE68C62D038D3700F96D0A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		3ECE68C92D038D3700F96D0A /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3ECE68C62D038D3700F96D0A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		3ECE68CB2D038D3700F96D0A /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3ECE68C62D038D3700F96D0A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3ECE688F2D038B3900F96D0A /* Project object */;
+}
