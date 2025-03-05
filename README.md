@@ -1,6 +1,6 @@
-# HuskyStudyApp  
+# HuskyStudyApp  <img src="https://github.com/user-attachments/assets/1aa2ef48-75e0-4453-aefa-3f4988f40bbf" width="50" />
 
-<img src="https://github.com/user-attachments/assets/1aa2ef48-75e0-4453-aefa-3f4988f40bbf" width="30" />
+
 
 
 
